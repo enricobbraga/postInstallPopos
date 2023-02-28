@@ -7,13 +7,13 @@ mkdir /home/$USER/Downloads/Programas
 cd /home/$USER/Downloads/Programas
 
 sudo wget https://az764295.vo.msecnd.net/stable/d045a5eda657f4d7b676dedbfa7aab8207f8a075/code_1.72.2-1665614327_amd64.deb
-
+sudo wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 sudo dpkg -i *.deb
+sudo sh install.sh
 
 ##Deixar marcado no POP-OS
-
 #sudo apt install gnome-software -y
 #sudo apt install gnome-software-plugin-flatpak -y
 #sudo apt install flatpak -y
